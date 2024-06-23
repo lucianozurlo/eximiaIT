@@ -21,12 +21,14 @@ header .eximia-socials-list a::before {
 #home .eit-row {
     margin-top: 60px;
 }
-#home .eximia-large-text {
-    font-size: 25px;
-}
-#home .eximia-hero-type07 .eximia-hero-social-proof a, .eximia-hero-type07 .eximia-hero-social-proof img {
-    width: 112px;
-    height: 112px;
+@media only screen and (min-width: 740px) {
+    #home .eximia-large-text {
+        font-size: 25px;
+    }
+    #home .eximia-hero-type07 .eximia-hero-social-proof a, .eximia-hero-type07 .eximia-hero-social-proof img {
+        width: 112px;
+        height: 112px;
+    }
 }
 #home .eximia-hero-type07 .eximia-hero-social-proof a span {
     letter-spacing: 1px;
