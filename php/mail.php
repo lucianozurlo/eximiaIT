@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
-    $mail_to = "lucianozurlo@gmail.com";
+    $mail_to = "info@eximiait.com.ar";
     $subject = "Correo de eximiait.com.ar";
     $nombre = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["nombre"])));
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
