@@ -1,3 +1,10 @@
+@media only screen and (max-width: 1600px) {
+    .eximia-portfolio-card-footer {
+        height: 120px;
+    }
+
+}
+
 @media only screen and (max-width: 1200px) {
 
     .pswp__button,
@@ -587,9 +594,17 @@
         height: 68px;
     }
 
+    .eximia-hero-type01 .eximia-masked-content a.eximia-square-button.brochure {
+        padding-top: 0 !important;
+    }
+
     .eximia-hero-type01 .eximia-masked-content a span {
         width: 24px;
         height: 24px;
+    }
+
+    .eximia-icon.just-txt {
+        display: none;
     }
 
     .eximia-hero-type02>.stg-row>.stg-col-6:first-child {

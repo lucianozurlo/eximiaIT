@@ -2632,14 +2632,15 @@ a.eximia-arrow-link {
 .eximia-portfolio-card-footer {
     display: flex;
     width: 100%;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
-    padding: var(--stg-small-gap) 0 9px 0;
+    padding: 18px 6px 5px;
 }
 
 .eximia-portfolio-card-title {
     min-height: 24px;
-    align-self: flex-end;
+    align-self: flex-start;
 }
 
 .eximia-portfolio-card-title h6 {
@@ -2649,6 +2650,7 @@ a.eximia-arrow-link {
 .eximia-portfolio-card .eximia-icon {
     transform-origin: 0% 100%;
     width: 24px;
+    min-width: 24px;
     height: 24px;
     transition: transform 0.3s;
     margin-right: var(--stg-xs-gap);
