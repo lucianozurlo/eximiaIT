@@ -2645,6 +2645,11 @@ a.eximia-arrow-link {
 
 .eximia-portfolio-card-title h6 {
     margin: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .eximia-portfolio-card .eximia-icon {

@@ -2,7 +2,6 @@
     .eximia-portfolio-card-footer {
         height: 120px;
     }
-
 }
 
 @media only screen and (max-width: 1200px) {
@@ -135,6 +134,13 @@
 }
 
 @media only screen and (max-width: 960px) {
+    .eximia-parallax-media .st-lazy-wrapper {
+        max-height: 70vw;
+    }
+
+    .eximia-parallax-media .st-lazy-wrapper img {
+        transform-origin: 50% 150% !important;
+    }
 
     .eximia-active-menu-ind,
     .eximia-header-inner {
