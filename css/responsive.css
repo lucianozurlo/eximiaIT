@@ -1,3 +1,7 @@
+header .eximia-nav .eximia-socials-list {
+    display: none;
+}
+
 @media only screen and (max-width: 1600px) {
     .eximia-portfolio-card-footer {
         height: 120px;
@@ -147,6 +151,10 @@
         display: none;
     }
 
+    header .eximia-nav .eximia-socials-list {
+        display: flex;
+    }
+
     .eximia-mobile-header-inner {
         display: flex;
         min-height: 44px;
@@ -286,6 +294,11 @@
         margin: 0;
         position: relative;
         z-index: 5;
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .eximia-mobile-menu>li.current-menu-parent>a::before,
@@ -319,6 +332,11 @@
         display: block;
         position: relative;
         padding: 16px 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
     }
 
     .eximia-mobile-menu .sub-menu {
@@ -352,6 +370,9 @@
         font-size: var(--eximia-t-menu-fs);
         line-height: var(--eximia-t-menu-lh);
         position: relative;
+
+        display: flex;
+        justify-content: center;
     }
 
     .eximia-mobile-menu ul.sub-menu li {
@@ -951,6 +972,10 @@
 
     .eximia-mobile-header-inner {
         padding: var(--eximia-header-spacing) var(--stg-gap);
+    }
+
+    ul.eximia-socials-list {
+        margin-top: 20%
     }
 
     .eximia-grid-1col,

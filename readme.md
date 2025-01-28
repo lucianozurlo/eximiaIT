@@ -1,3 +1,44 @@
+## EximiaIT v2.3
+
++ Se actualizan: **index.html** y **responsive.css**
+
+index.html:
+```html
+                <nav class="eximia-nav">
+                    <ul class="main-menu" data-stagger-appear="fade-down" data-stagger-delay="75">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+
+                        <ul class="eximia-socials-list" data-stagger-appear="fade-down" data-stagger-delay="75">
+                            <li class="in-view" data-delay="0" data-unload="none" data-threshold="0.5">
+                                <a href="https://www.linkedin.com/company/eximiait" target="_blank"
+                                    class="eximia-socials-linkedin"><i></i></a>
+                            </li>
+                            <li class="in-view" data-delay="75" data-unload="none" data-threshold="0.5">
+                                <a href="https://x.com/eximia_it" target="_blank" class="eximia-socials-x"><i></i></a>
+                            </li>
+                            <li class="in-view" data-delay="0" data-unload="none" data-threshold="0.5">
+                                <a href="https://www.instagram.com/eximiait" target="_blank"
+                                    class="eximia-socials-instagram"><i></i></a>
+                            </li>
+                            <li class="in-view" data-delay="0" data-unload="none" data-threshold="0.5">
+                                <a href="https://www.youtube.com/@eximiait6946" target="_blank"
+                                    class="eximia-socials-youtube"><i></i></a>
+                            </li>
+                            <li class="in-view" data-delay="0" data-unload="none" data-threshold="0.5">
+                                <a href="mailto:info@eximiait.com.ar" target="_blank"
+                                    class="eximia-socials-email"><i></i></a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+```
+
+---
+
+
 ## EximiaIT v2.2
 
 + Se actualizan: **styles.css** y **responsive.css**
